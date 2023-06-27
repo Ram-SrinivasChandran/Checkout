@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/checkout.css">
+  </head>
+  <body>
+    <div class="header">
+      <div>        
+        <a href="https://ram-srinivaschandran.github.io/Amazon/">
+          <img class="logo-image" src="Icons/amazon-mobile-logo.png">
+        <img class="logo-image-two" src="Icons/amazon-logo.png">
+         </a>
+      </div>
+      <div class="checkout-head">
+        Checkout(<a class="checkout-quantity js-checkout-quantity">0 items</a>)
+      </div>
+      <div class="lock-image">
+        <img src="Icons/checkout-lock-icon.png">
+      </div>
+    </div>
+    <div class="centre-content-order">
+      <div class="review-the-order">Review your order</div>
+      <div class="review-the-order-grid">
+        <div class="js-display-cart">
+        </div>
+        <div class="order-summary">
+          <div class="order-summary-box">
+            <div class="order-summary-head">Order Summary</div>
+          <div class="items">
+            <div>Items (<span class="js-total-quantity">0</span>):</div>
+            <div class="js-items-total-cost">$0.00</div>
+          </div>
+          <div class="shipping">
+            <div>Shipping & handling:</div>
+            <div class="js-sh-cost">$0.00</div>
+          </div>
+          <div class="total-tax">
+            <div>Total before tax</div>
+            <div class="js-before-tax-total">$0.00</div>
+          </div>
+          <div class="tax">
+            <div>Estimated tax(10%):</div>
+            <div class="js-tax" >$0.00</div>
+          </div>
+          <div class="total">
+            <div>Order total:</div>
+            <div class="js-total-cost">$0.00</div>
+          </div>
+          <div class="order-button">
+            <button class="order js-order-button">Place your Order</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--<button class="js-button">button</button>-->
+    <script src="cart.js"></script>
+    <script src="cartDisplay.js"></script>
+  </body>
+</html>
